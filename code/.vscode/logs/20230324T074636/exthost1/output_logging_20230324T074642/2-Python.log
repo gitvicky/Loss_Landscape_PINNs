@@ -1,0 +1,11 @@
+Experiment 'pythonPromptNewToolsExtNonExistantcf' is active
+LSP Notebooks experiment is disabled -- not using Pylance
+LSP Notebooks interactive window support is disabled -- not in LSP Notebooks experiment
+> conda info --json
+Python interpreter path: /opt/conda/bin/python
+> conda run -n base --no-capture-output python /.vscode/extensions/ms-python.python-2022.18.2-universal/pythonFiles/get_output_via_markers.py /.vscode/extensions/ms-python.python-2022.18.2-universal/pythonFiles/printEnvVariables.py
+> /opt/conda/bin/python /.vscode/extensions/ms-python.python-2022.18.2-universal/pythonFiles/get_output_via_markers.py /.vscode/extensions/ms-python.python-2022.18.2-universal/pythonFiles/interpreterInfo.py
+Starting Jedi language server for capsule.
+> conda run -n base --no-capture-output python /.vscode/extensions/ms-python.python-2022.18.2-universal/pythonFiles/get_output_via_markers.py /.vscode/extensions/ms-python.python-2022.18.2-universal/pythonFiles/printEnvVariables.py
+> conda run -n base --no-capture-output python /.vscode/extensions/ms-python.python-2022.18.2-universal/pythonFiles/get_output_via_markers.py /.vscode/extensions/ms-python.python-2022.18.2-universal/pythonFiles/printEnvVariables.py
+> conda run -n base --no-capture-output python /.vscode/extensions/ms-python.python-2022.18.2-universal/pythonFiles/get_output_via_markers.py /.vscode/extensions/ms-python.python-2022.18.2-universal/pythonFiles/printEnvVariables.py

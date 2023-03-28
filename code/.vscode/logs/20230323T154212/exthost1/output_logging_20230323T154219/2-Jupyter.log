@@ -1,0 +1,584 @@
+code-server (1.73.1, live.codeocean.com, server-distro)
+Jupyter Extension Version: 2022.10.110.
+Python Extension Version: 2022.18.2.
+Workspace folder /root/capsule
+info 15:44:06.994: ZMQ install verified.
+info 15:44:07.372: LSP Notebooks experiment is disabled -- Pylance disabled or not installed
+info 15:44:07.427: Process Execution: > jupyter notebook --version
+> jupyter notebook --version
+info 15:44:07.437: Process Execution: > jupyter lab --version
+> jupyter lab --version
+error 15:44:08.928: Execing shell command, Class name = b, completed in 271ms, has a falsy return value, Arg 1: "conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/pythonFiles/printEnvVariables.py", Arg 2: "" [Error: Command failed: conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/pythonFiles/printEnvVariables.py
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+	at ChildProcess.exithandler (node:child_process:402:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1100:16)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)] {
+  code: 1,
+  killed: false,
+  signal: null,
+  cmd: "conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/pythonFiles/printEnvVariables.py"
+}
+info 15:44:09.370: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1042ms
+info 15:44:09.381: Process Execution: > /opt/conda/bin/python -m pip list
+> /opt/conda/bin/python -m pip list
+info 15:44:14.867: Preferred Remote kernel for Untitled-1.ipynb is undefined
+info 15:44:14.873: Preferred Remote kernel for Untitled-1.ipynb is undefined
+info 15:44:14.874: Find preferred kernel for Untitled-1.ipynb with metadata {"orig_nbformat":4,"language_info":{"name":"python"}} & preferred interpreter /opt/conda/bin/python
+info 15:44:14.875: Preferred Remote kernel for Untitled-1.ipynb is undefined
+info 15:44:14.875: Preferred kernel .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher is exact match or top match for non python kernels, (true, [object Object], false, false)
+info 15:44:14.877: PreferredConnection: .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher found for NotebookDocument: Untitled-1.ipynb
+info 15:44:32.238: Starting interactive window for resource '/root/capsule/code/Reprod/Burgers/Burgers.py' with controller '.jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher (Interactive)'
+info 15:44:32.579: Preferred Remote kernel for Interactive-1.interactive is undefined
+info 15:44:33.109: Starting Jupyter Session startUsingPythonInterpreter, .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher (Python Path: /opt/conda/bin/python, EnvType: Conda, EnvName: 'base', Version: 3.9.12 (main, Apr  5 2022, 06:56:58) 
+[GCC 7.5.0]) for 'Interactive-1.interactive' (disableUI=false)
+info 15:44:33.110: Computing working directory for resource '/root/capsule/code/Reprod/Burgers/Burgers.py'
+error 15:44:33.406: Execing shell command, Class name = b, completed in 279ms, has a falsy return value, Arg 1: "conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/pythonFiles/printEnvVariables.py", Arg 2: "" [Error: Command failed: conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/pythonFiles/printEnvVariables.py
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+	at ChildProcess.exithandler (node:child_process:402:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1100:16)
+	at Socket.<anonymous> (node:internal/child_process:458:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:301:12)] {
+  code: 1,
+  killed: false,
+  signal: null,
+  cmd: "conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/pythonFiles/printEnvVariables.py"
+}
+info 15:44:34.189: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1052ms
+info 15:44:34.190: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1052ms
+info 15:44:34.198: Process Execution: > /opt/conda/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"d93db078-504a-4d20-a3dd-e30a8bcdb154" --shell=9002 --transport="tcp" --iopub=9004 --f=/root/.local/share/jupyter/runtime/kernel-v2-90hhWh06J9YzD6.json
+> /opt/conda/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"d93db078-504a-4d20-a3dd-e30a8bcdb154" --shell=9002 --transport="tcp" --iopub=9004 --f=/root/.local/share/jupyter/runtime/kernel-v2-90hhWh06J9YzD6.json
+info 15:44:34.198: Process Execution: cwd: ~/capsule/code/Reprod/Burgers
+cwd: ~/capsule/code/Reprod/Burgers
+info 15:44:34.205: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1091ms
+info 15:44:34.211: Process Execution: > /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+> /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+info 15:44:34.364: ipykernel version & path 6.19.2, /opt/conda/lib/python3.9/site-packages/ipykernel/__init__.py for /opt/conda/bin/python
+warn 15:44:34.983: StdErr from Kernel Process /opt/conda/lib/python3.9/site-packages/traitlets/traitlets.py:2544: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use 'hmac-sha256' instead of '"hmac-sha256"' if you require traitlets >=5.
+  warn(
+
+warn 15:44:34.983: StdErr from Kernel Process /opt/conda/lib/python3.9/site-packages/traitlets/traitlets.py:2495: FutureWarning: Supporting extra quotes around Bytes is deprecated in traitlets 5.0. Use 'd93db078-504a-4d20-a3dd-e30a8bcdb154' instead of 'b"d93db078-504a-4d20-a3dd-e30a8bcdb154"'.
+  warn(
+
+info 15:44:34.996: Kernel Output: To connect another client to this kernel, use: --existing kernel-v2-90hhWh06J9YzD6.json
+
+info 15:44:35.059: Started Kernel base (Python 3.9.12) (pid: 752)
+info 15:44:35.063: UpdateWorkingDirectoryAndPath in Kernel
+info 15:44:35.436: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1ms
+info 15:44:35.443: Process Execution: > /opt/conda/bin/python /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/pythonFiles/printJupyterDataDir.py
+> /opt/conda/bin/python /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/pythonFiles/printJupyterDataDir.py
+info 15:44:35.452: Generated code for 1 = <ipython-input-1-fee4998e9dad> with 43 lines
+info 15:45:15.072: Generated code for 2 = <ipython-input-2-c51676151331> with 37 lines
+info 15:45:15.971: Generated code for 3 = <ipython-input-3-9bff67330fc6> with 9 lines
+info 15:45:16.234: Generated code for 4 = <ipython-input-4-34ee5927f095> with 40 lines
+info 15:45:16.660: Generated code for 5 = <ipython-input-5-06b58fae9a1f> with 187 lines
+info 15:45:17.038: Generated code for 6 = <ipython-input-6-7cb37f0f61eb> with 4 lines
+info 15:45:18.679: Cancel all remaining cells true || Error || undefined
+info 15:46:29.294: Generated code for 7 = <ipython-input-7-fee4998e9dad> with 43 lines
+info 15:47:02.544: Generated code for 8 = <ipython-input-8-c51676151331> with 37 lines
+info 15:47:02.794: Generated code for 9 = <ipython-input-9-9bff67330fc6> with 9 lines
+info 15:47:03.219: Generated code for 10 = <ipython-input-10-34ee5927f095> with 40 lines
+info 15:47:03.630: Generated code for 11 = <ipython-input-11-b650e1f3fe47> with 187 lines
+info 15:47:04.150: Generated code for 12 = <ipython-input-12-7cb37f0f61eb> with 4 lines
+info 15:47:05.884: Generated code for 13 = <ipython-input-13-dcb766ea71ac> with 9 lines
+info 15:47:06.462: Generated code for 14 = <ipython-input-14-ca1f1eea6fc5> with 13 lines
+info 15:47:06.878: Generated code for 15 = <ipython-input-15-6a59f05f4bb6> with 82 lines
+info 15:48:09.286: Disposing kernel .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher for notebook Interactive-1.interactive due to selection of another kernel or closing of the notebook
+info 15:48:09.286: Dispose Kernel 'Interactive-1.interactive' associated with '/root/capsule/code/Reprod/Burgers/Burgers.py'
+info 15:48:09.290: Dispose Kernel process 752.
+info 15:48:09.326: Dispose Kernel 'Interactive-1.interactive' associated with '/root/capsule/code/Reprod/Burgers/Burgers.py'
+info 15:48:09.334: Cancel all remaining cells true || Idle || undefined
+error 15:48:09.336: Error in waiting for cell to complete [Error: Canceled future for execute_request message before replies were done
+	at t.KernelShellFutureHandler.dispose (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:427328)
+	at /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:446380
+	at Map.forEach (<anonymous>)
+	at y._clearKernelState (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:446365)
+	at y.dispose (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:439847)
+	at /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:593313
+	at t.swallowExceptions (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:7:167240)
+	at p.dispose (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:593291)
+	at t.RawSession.dispose (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:598289)]
+warn 15:48:09.338: Cell completed with errors {
+  message: 'Canceled future for execute_request message before replies were done'
+}
+info 15:48:09.349: Starting Jupyter Session startUsingPythonInterpreter, .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher (Python Path: /opt/conda/bin/python, EnvType: Conda, EnvName: 'base', Version: 3.9.12 (main, Apr  5 2022, 06:56:58) 
+[GCC 7.5.0]) for 'Interactive-1.interactive' (disableUI=false)
+info 15:48:09.350: Computing working directory for resource '/root/capsule/code/Reprod/Burgers/Burgers.py'
+info 15:48:09.363: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 3ms
+info 15:48:09.373: Process Execution: > /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+> /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+info 15:48:09.384: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1ms
+info 15:48:09.385: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 2ms
+info 15:48:09.395: Process Execution: > /opt/conda/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9008 --control=9006 --hb=9005 --Session.signature_scheme="hmac-sha256" --Session.key=b"7bdbae48-81d4-443f-a5c5-6d8bb40b9306" --shell=9007 --transport="tcp" --iopub=9009 --f=/root/.local/share/jupyter/runtime/kernel-v2-90xqqeyF7DJaqT.json
+> /opt/conda/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9008 --control=9006 --hb=9005 --Session.signature_scheme="hmac-sha256" --Session.key=b"7bdbae48-81d4-443f-a5c5-6d8bb40b9306" --shell=9007 --transport="tcp" --iopub=9009 --f=/root/.local/share/jupyter/runtime/kernel-v2-90xqqeyF7DJaqT.json
+info 15:48:09.395: Process Execution: cwd: ~/capsule/code/Reprod/Burgers
+cwd: ~/capsule/code/Reprod/Burgers
+info 15:48:09.530: ipykernel version & path 6.19.2, /opt/conda/lib/python3.9/site-packages/ipykernel/__init__.py for /opt/conda/bin/python
+warn 15:48:09.876: StdErr from Kernel Process /opt/conda/lib/python3.9/site-packages/traitlets/traitlets.py:2544: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use 'hmac-sha256' instead of '"hmac-sha256"' if you require traitlets >=5.
+  warn(
+
+warn 15:48:09.876: StdErr from Kernel Process /opt/conda/lib/python3.9/site-packages/traitlets/traitlets.py:2495: FutureWarning: Supporting extra quotes around Bytes is deprecated in traitlets 5.0. Use '7bdbae48-81d4-443f-a5c5-6d8bb40b9306' instead of 'b"7bdbae48-81d4-443f-a5c5-6d8bb40b9306"'.
+  warn(
+
+info 15:48:09.882: Kernel Output: To connect another client to this kernel, use: --existing kernel-v2-90xqqeyF7DJaqT.json
+
+info 15:48:10.033: Started Kernel base (Python 3.9.12) (pid: 1684)
+info 15:48:10.035: UpdateWorkingDirectoryAndPath in Kernel
+info 15:48:10.184: Generated code for 1 = <ipython-input-1-91282926591a> with 14 lines
+info 15:48:10.312: Preferred Remote kernel for Interactive-1.interactive is undefined
+info 15:48:10.314: Cancel all remaining cells true || undefined || true
+info 15:48:11.883: Starting interactive window for resource '/root/capsule/code/Reprod/Burgers/Burgers.py' with controller '.jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher (Interactive)'
+info 15:48:13.149: Starting Jupyter Session startUsingPythonInterpreter, .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher (Python Path: /opt/conda/bin/python, EnvType: Conda, EnvName: 'base', Version: 3.9.12 (main, Apr  5 2022, 06:56:58) 
+[GCC 7.5.0]) for 'Interactive-1.interactive' (disableUI=false)
+info 15:48:13.150: Computing working directory for resource '/root/capsule/code/Reprod/Burgers/Burgers.py'
+info 15:48:13.154: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1ms
+info 15:48:13.161: Process Execution: > /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+> /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+info 15:48:13.165: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1ms
+info 15:48:13.165: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1ms
+info 15:48:13.172: Process Execution: > /opt/conda/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"0fc53bc4-19f7-4466-95e8-5e628e258622" --shell=9002 --transport="tcp" --iopub=9004 --f=/root/.local/share/jupyter/runtime/kernel-v2-90DR9lIwhHjBDV.json
+> /opt/conda/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"0fc53bc4-19f7-4466-95e8-5e628e258622" --shell=9002 --transport="tcp" --iopub=9004 --f=/root/.local/share/jupyter/runtime/kernel-v2-90DR9lIwhHjBDV.json
+info 15:48:13.172: Process Execution: cwd: ~/capsule/code/Reprod/Burgers
+cwd: ~/capsule/code/Reprod/Burgers
+info 15:48:13.317: ipykernel version & path 6.19.2, /opt/conda/lib/python3.9/site-packages/ipykernel/__init__.py for /opt/conda/bin/python
+warn 15:48:13.656: StdErr from Kernel Process /opt/conda/lib/python3.9/site-packages/traitlets/traitlets.py:2544: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use 'hmac-sha256' instead of '"hmac-sha256"' if you require traitlets >=5.
+  warn(
+
+warn 15:48:13.656: StdErr from Kernel Process /opt/conda/lib/python3.9/site-packages/traitlets/traitlets.py:2495: FutureWarning: Supporting extra quotes around Bytes is deprecated in traitlets 5.0. Use '0fc53bc4-19f7-4466-95e8-5e628e258622' instead of 'b"0fc53bc4-19f7-4466-95e8-5e628e258622"'.
+  warn(
+
+info 15:48:13.663: Kernel Output: To connect another client to this kernel, use: --existing kernel-v2-90DR9lIwhHjBDV.json
+
+info 15:48:13.785: Started Kernel base (Python 3.9.12) (pid: 1714)
+info 15:48:13.786: UpdateWorkingDirectoryAndPath in Kernel
+info 15:48:13.935: Generated code for 1 = <ipython-input-1-fee4998e9dad> with 43 lines
+error 15:48:14.042: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:14.043: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+error 15:48:14.043: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:14.044: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:14.044: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:14.044: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:14.044: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:14.044: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:14.044: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:14.044: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:14.044: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:14.044: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+error 15:48:14.359: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+error 15:48:14.512: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+error 15:48:14.614: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+error 15:48:14.717: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+error 15:48:15.033: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+error 15:48:15.125: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+error 15:48:15.219: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+error 15:48:15.314: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+info 15:48:36.816: Generated code for 2 = <ipython-input-2-fee4998e9dad> with 43 lines
+error 15:48:37.258: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:37.259: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+error 15:48:37.259: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:37.259: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:37.259: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:37.259: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:37.259: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:37.260: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:37.260: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:37.260: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:37.260: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+warn 15:48:37.260: DataScience Error [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+error 15:48:38.175: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+error 15:48:38.287: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+error 15:48:38.384: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+error 15:48:38.628: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+error 15:48:38.724: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+error 15:48:38.817: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+error 15:48:38.911: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+error 15:48:39.150: Error in execution (get message for cell) [Error: notebook controller is NOT associated to notebook: vscode-interactive:Interactive-1.interactive
+	at Object.createNotebookCellExecution (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:105902)
+	at Function.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199668)
+	at Function.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199539)
+	at new v (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192574)
+	at Function.fromCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:192844)
+	at t.CellExecutionFactory.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:191662)
+	at t.CellExecutionQueue.queueCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:218567)
+	at t.KernelExecution.executeCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:237899)]
+info 15:48:40.187: Disposing kernel .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher for notebook Interactive-1.interactive due to selection of another kernel or closing of the notebook
+info 15:48:40.187: Dispose Kernel 'Interactive-1.interactive' associated with '/root/capsule/code/Reprod/Burgers/Burgers.py'
+info 15:48:40.188: Dispose Kernel process 1714.
+info 15:48:40.202: Dispose Kernel 'Interactive-1.interactive' associated with '/root/capsule/code/Reprod/Burgers/Burgers.py'
+info 15:48:48.179: Starting interactive window for resource '/root/capsule/code/Reprod/Burgers/Burgers.py' with controller '.jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher (Interactive)'
+error 15:48:48.356: CodeWatcher::runCell, Class name = E, completed in 179ms, has a falsy return value [Error: Failed to request creation of interactive window from VS Code.
+	at P.createEditor (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:133436)
+	at async P.create (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:132654)
+	at async P.getOrCreate (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:132037)
+	at async E.runMatchingCell (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:89296)]
+info 15:49:11.873: Shutting down notebooks for f6d60898-de2e-4480-b41b-89ca13ec2c05
+info 15:49:11.873: Disposing HostJupyterExecution d055f01e-f998-499d-a638-a8b582609387
+info 15:49:11.873: Disposing super HostJupyterExecution d055f01e-f998-499d-a638-a8b582609387
+info 15:49:11.873: Dispose Kernel 'Interactive-1.interactive' associated with '/root/capsule/code/Reprod/Burgers/Burgers.py'
+info 15:49:11.873: Dispose Kernel 'Interactive-1.interactive' associated with '/root/capsule/code/Reprod/Burgers/Burgers.py'
+info 15:49:11.874: Dispose Kernel process 1684.
+info 15:49:11.883: Dispose Kernel 'Interactive-1.interactive' associated with '/root/capsule/code/Reprod/Burgers/Burgers.py'
+info 15:49:11.883: Disposing HostJupyterExecution d055f01e-f998-499d-a638-a8b582609387
+info 15:49:11.883: Finished disposing HostJupyterExecution  d055f01e-f998-499d-a638-a8b582609387
+info 15:49:11.887: Dispose Kernel 'Interactive-1.interactive' associated with '/root/capsule/code/Reprod/Burgers/Burgers.py'
+info 15:49:11.889: Cleaning up server cache d055f01e-f998-499d-a638-a8b582609387
+info 15:49:11.891: Finished disposing HostJupyterExecution  d055f01e-f998-499d-a638-a8b582609387
+warn 15:49:11.915: Failed to delete connection file /root/.local/share/jupyter/runtime/kernel-v2-90xqqeyF7DJaqT.json for pid 1684 [Canceled (FileSystemError): Canceled
+	at Function._handleError (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:30407)
+	at Object.stat (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:28335)
+	at async b.delete (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:7:16665)
+	at async /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:574498] {
+  code: 'Unknown'
+}

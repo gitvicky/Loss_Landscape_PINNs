@@ -141,7 +141,8 @@ for ii in range(len(models)):
     name = models[ii][:-4]
 
     # Checkpoint
-    model_loc = '/home/vgopakum/Training/Hybrid_PINNs/Burgers/models/' + models[ii]
+    model_loc = os.getcwd() + '/models/' + models[ii]
+
 
     model = MLP(2, 1, 5, 100)
     # model = nn.DataParallel(model)

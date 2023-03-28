@@ -1,0 +1,123 @@
+2023-03-23 16:17:14.641 [info] 
+
+
+
+
+2023-03-23 16:17:14.664 [info] Extension host agent started.
+2023-03-23 16:17:17.985 [info] [10.0.0.195][fd6da43a][ManagementConnection] New connection established.
+2023-03-23 16:17:19.508 [info] [10.0.3.226][118eb050][ExtensionHostConnection] New connection established.
+2023-03-23 16:17:19.520 [info] [10.0.3.226][118eb050][ExtensionHostConnection] <90> Launched Extension Host Process.
+2023-03-23 16:17:33.377 [info] Getting Manifest... ms-python.python
+2023-03-23 16:17:33.866 [info] Installing extension: ms-python.python
+2023-03-23 16:17:36.163 [info] Getting Manifest... ms-toolsai.jupyter
+2023-03-23 16:17:39.726 [error] Error while preparing to install dependencies and extension packs of the extension: ms-python.python
+2023-03-23 16:17:39.727 [error] Failed to install extension. ms-python.python
+2023-03-23 16:17:39.728 [error] Error: Server returned 503
+    at R (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:90:12751)
+    at ee.queryRawGalleryExtensions (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:136:94400)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async ee.queryGalleryExtensions (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:136:91421)
+    at async ee.getExtensions (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:136:88131)
+    at async K (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:136:40064)
+    at async K (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:136:40661)
+    at async B.getAllDepsAndPackExtensions (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:136:40715)
+    at async B.installExtension (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:136:34381)
+    at async B.installFromGallery (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:136:32208)
+2023-03-23 16:17:45.736 [info] Getting Manifest... ms-python.python
+2023-03-23 16:17:46.281 [info] Installing extension: ms-python.python
+2023-03-23 16:17:46.613 [info] Getting Manifest... ms-toolsai.jupyter
+2023-03-23 16:17:47.352 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-03-23 16:17:47.694 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-03-23 16:17:48.045 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-03-23 16:17:48.407 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-03-23 16:17:48.756 [info] Getting Manifest... ms-python.isort
+2023-03-23 16:17:49.169 [info] Installing extension: ms-toolsai.jupyter ms-python.python
+2023-03-23 16:17:49.170 [info] Installing extension: ms-toolsai.jupyter-renderers ms-python.python
+2023-03-23 16:17:49.170 [info] Installing extension: ms-toolsai.jupyter-keymap ms-python.python
+2023-03-23 16:17:49.170 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-python.python
+2023-03-23 16:17:49.170 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-python.python
+2023-03-23 16:17:49.170 [info] Installing extension: ms-python.isort ms-python.python
+2023-03-23 16:17:49.171 [error] Error while installing the extension: ms-python.python
+2023-03-23 16:17:49.994 [info] Extracted extension to /.vscode/extensions/.8bd4ee18-e2c8-4200-8a00-e78fa73d570b: ms-toolsai.jupyter-keymap
+2023-03-23 16:17:49.997 [info] Renamed to /.vscode/extensions/ms-toolsai.jupyter-keymap-1.1.0-universal
+2023-03-23 16:17:49.998 [info] Extracting completed. ms-toolsai.jupyter-keymap
+2023-03-23 16:17:50.091 [info] Extracted extension to /.vscode/extensions/.5a7437c1-81fc-432a-8576-1a429811ecd5: ms-toolsai.vscode-jupyter-slideshow
+2023-03-23 16:17:50.095 [info] Renamed to /.vscode/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5-universal
+2023-03-23 16:17:50.095 [info] Extracted extension to /.vscode/extensions/.161ad72b-cbc6-45f4-8a8c-16bbdb5864fe: ms-toolsai.vscode-jupyter-cell-tags
+2023-03-23 16:17:50.097 [info] Extracting completed. ms-toolsai.vscode-jupyter-slideshow
+2023-03-23 16:17:50.099 [info] Renamed to /.vscode/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8-universal
+2023-03-23 16:17:50.100 [info] Extracting completed. ms-toolsai.vscode-jupyter-cell-tags
+2023-03-23 16:17:50.862 [info] Extracted extension to /.vscode/extensions/.e3768582-169a-4846-a14b-0ff4e6b88b50: ms-toolsai.jupyter-renderers
+2023-03-23 16:17:50.866 [info] Renamed to /.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.12-universal
+2023-03-23 16:17:50.867 [info] Extracting completed. ms-toolsai.jupyter-renderers
+2023-03-23 16:17:51.513 [info] Extracted extension to /.vscode/extensions/.0fe1f1b4-b505-4477-bb56-dcea678924c2: ms-toolsai.jupyter
+2023-03-23 16:17:51.518 [info] Renamed to /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal
+2023-03-23 16:17:51.531 [info] Extracting completed. ms-toolsai.jupyter
+2023-03-23 16:17:51.586 [info] Rollback: Uninstalled extension ms-toolsai.jupyter-keymap
+2023-03-23 16:17:51.586 [info] Rollback: Uninstalled extension ms-toolsai.vscode-jupyter-slideshow
+2023-03-23 16:17:51.586 [info] Rollback: Uninstalled extension ms-toolsai.vscode-jupyter-cell-tags
+2023-03-23 16:17:51.586 [info] Rollback: Uninstalled extension ms-toolsai.jupyter-renderers
+2023-03-23 16:17:51.586 [info] Rollback: Uninstalled extension ms-toolsai.jupyter
+2023-03-23 16:17:51.587 [error] Failed to install extension. ms-python.python
+2023-03-23 16:17:51.588 [error] Canceled: Canceled
+    at /.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:67:11489
+    at g.invoke (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at p.deliver (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:63:2277)
+    at v.fire (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:63:1855)
+    at I.cancel (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:63:6762)
+    at P.cancel (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:63:7303)
+    at Object.cancel (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:67:11643)
+    at j.cancel (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:136:50640)
+    at /.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:136:38091
+    at Array.forEach (<anonymous>)
+    at B.installExtension (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:136:38067)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async B.installFromGallery (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:136:32208)
+2023-03-23 16:17:51.734 [info] Detected extension removed from another source ms-toolsai.jupyter-keymap
+2023-03-23 16:17:51.734 [info] Detected extension removed from another source ms-toolsai.jupyter-renderers
+2023-03-23 16:17:51.734 [info] Detected extension removed from another source ms-toolsai.vscode-jupyter-cell-tags
+2023-03-23 16:17:51.734 [info] Detected extension removed from another source ms-toolsai.vscode-jupyter-slideshow
+2023-03-23 16:17:56.898 [info] Getting Manifest... ms-python.python
+2023-03-23 16:17:57.377 [info] Installing extension: ms-python.python
+2023-03-23 16:17:57.641 [info] Getting Manifest... ms-toolsai.jupyter
+2023-03-23 16:17:58.431 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-03-23 16:17:58.779 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-03-23 16:17:59.122 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-03-23 16:17:59.464 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-03-23 16:17:59.815 [info] Getting Manifest... ms-python.isort
+2023-03-23 16:18:00.221 [info] Installing extension: ms-toolsai.jupyter ms-python.python
+2023-03-23 16:18:00.221 [info] Installing extension: ms-toolsai.jupyter-renderers ms-python.python
+2023-03-23 16:18:00.221 [info] Installing extension: ms-toolsai.jupyter-keymap ms-python.python
+2023-03-23 16:18:00.221 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-python.python
+2023-03-23 16:18:00.221 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-python.python
+2023-03-23 16:18:00.222 [info] Installing extension: ms-python.isort ms-python.python
+2023-03-23 16:18:00.222 [error] Error while installing the extension: ms-python.python
+2023-03-23 16:18:00.539 [info] Removed the extension from uninstalled list: ms-toolsai.jupyter-keymap
+2023-03-23 16:18:00.547 [error] [/.vscode/extensions/ms-toolsai.jupyter-keymap-1.1.0-universal]: Failed to parse /.vscode/extensions/ms-toolsai.jupyter-keymap-1.1.0-universal/package.json: [0, 0] Value expected.
+2023-03-23 16:18:00.547 [error] [/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal]: Failed to parse /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/package.json: [0, 0] Value expected.
+2023-03-23 16:18:00.551 [info] Removed the extension from uninstalled list: ms-toolsai.jupyter-renderers
+2023-03-23 16:18:00.558 [info] Removed the extension from uninstalled list: ms-toolsai.jupyter
+2023-03-23 16:18:00.561 [info] Removed the extension from uninstalled list: ms-toolsai.vscode-jupyter-cell-tags
+2023-03-23 16:18:00.562 [info] Removed the extension from uninstalled list: ms-toolsai.vscode-jupyter-slideshow
+2023-03-23 16:18:00.615 [info] Rollback: Uninstalled extension ms-toolsai.jupyter-keymap
+2023-03-23 16:18:00.615 [info] Rollback: Uninstalled extension ms-toolsai.jupyter-renderers
+2023-03-23 16:18:00.615 [info] Rollback: Uninstalled extension ms-toolsai.jupyter
+2023-03-23 16:18:00.615 [info] Rollback: Uninstalled extension ms-toolsai.vscode-jupyter-cell-tags
+2023-03-23 16:18:00.615 [info] Rollback: Uninstalled extension ms-toolsai.vscode-jupyter-slideshow
+2023-03-23 16:18:00.615 [error] Failed to install extension. ms-python.python
+2023-03-23 16:18:00.615 [error] Canceled: Canceled
+    at /.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:67:11489
+    at g.invoke (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:63:145)
+    at p.deliver (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:63:2277)
+    at v.fire (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:63:1855)
+    at I.cancel (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:63:6762)
+    at P.cancel (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:63:7303)
+    at Object.cancel (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:67:11643)
+    at j.cancel (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:136:50640)
+    at /.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:136:38091
+    at Array.forEach (<anonymous>)
+    at B.installExtension (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:136:38067)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async B.installFromGallery (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/server/node/server.main.js:136:32208)
+2023-03-23 16:18:07.704 [info] [10.0.0.195][fd6da43a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-23 16:18:07.718 [info] [10.0.3.226][118eb050][ExtensionHostConnection] <90> Extension Host Process exited with code: 0, signal: null.

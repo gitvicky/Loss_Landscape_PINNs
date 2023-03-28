@@ -1,0 +1,24 @@
+2023-03-24 07:46:42.656 [info] Extension host with pid 90 started
+2023-03-24 07:46:42.674 [info] Lock '/root/capsule/code/.vscode/User/workspaceStorage/-b8cdb6d/vscode.lock': Lock acquired.
+2023-03-24 07:46:42.842 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-03-24 07:46:42.969 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-03-24 07:46:42.970 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-24 07:46:43.238 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-24 07:46:43.238 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-03-24 07:46:43.239 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-24 07:46:43.239 [info] Eager extensions activated
+2023-03-24 07:48:58.477 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-03-24 07:48:58.478 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-03-24 07:48:59.655 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-03-24 07:49:00.012 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: false, activationEvent: 'onLanguage:python'
+2023-03-24 07:49:05.321 [error] [ms-python.python] provider FAILED
+2023-03-24 07:49:05.321 [error] Error: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 16 ('\n').
+	at /.vscode/extensions/ms-python.python-2022.18.2-universal/out/client/extension.js:2:1716502
+	at /.vscode/extensions/ms-python.python-2022.18.2-universal/out/client/extension.js:2:1716796
+	at Immediate.<anonymous> (/.vscode/extensions/ms-python.python-2022.18.2-universal/out/client/extension.js:2:1717158)
+	at processImmediate (node:internal/timers:466:21)
+2023-03-24 07:49:07.252 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2023-03-24 07:49:07.252 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2023-03-24 07:54:32.703 [info] Extension host terminating: received terminate message from renderer
+2023-03-24 07:54:32.703 [info] Lock '/root/capsule/code/.vscode/User/workspaceStorage/-b8cdb6d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-03-24 07:54:32.862 [info] Extension host with pid 90 exiting with code 0

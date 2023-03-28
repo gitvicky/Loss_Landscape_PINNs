@@ -1,0 +1,22 @@
+WARNING:pygls.protocol:Cancel notification for unknown message id "2"
+ERROR:pygls.protocol:Failed to handle request 4 textDocument/hover work_done_token=None text_document=TextDocumentIdentifier(uri='file:///root/capsule/code/Original/Burgers/map.py') position=15:0
+Traceback (most recent call last):
+  File "/.vscode/extensions/ms-python.python-2022.18.2-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/.vscode/extensions/ms-python.python-2022.18.2-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request
+    method_name, method_type, msg_id, handler(params))
+  File "/.vscode/extensions/ms-python.python-2022.18.2-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 372, in hover
+    jedi_script.help(
+  File "/.vscode/extensions/ms-python.python-2022.18.2-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper
+    raise ValueError('`column` parameter (%d) is not in a valid range '
+ValueError: `column` parameter (1) is not in a valid range (0-0) for line 16 ('\n').
+[Error - 7:49:05 AM] Request textDocument/hover failed.
+  Message: ValueError: `column` parameter (1) is not in a valid range (0-0) for line 16 ('\n').
+  Code: -32602 
+{'traceback': ['  File "/.vscode/extensions/ms-python.python-2022.18.2-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 331, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/.vscode/extensions/ms-python.python-2022.18.2-universal/pythonFiles/lib/jedilsp/pygls/protocol.py", line 260, in _execute_request\n    method_name, method_type, msg_id, handler(params))\n', '  File "/.vscode/extensions/ms-python.python-2022.18.2-universal/pythonFiles/lib/jedilsp/jedi_language_server/server.py", line 372, in hover\n    jedi_script.help(\n', '  File "/.vscode/extensions/ms-python.python-2022.18.2-universal/pythonFiles/lib/jedilsp/jedi/api/helpers.py", line 484, in wrapper\n    raise ValueError(\'`column` parameter (%d) is not in a valid range \'\n']}
+WARNING:pygls.protocol:Cancel notification for unknown message id "5"
+WARNING:pygls.protocol:Cancel notification for unknown message id "7"
+WARNING:pygls.protocol:Cancel notification for unknown message id "8"
+WARNING:pygls.protocol:Cancel notification for unknown message id "9"
+WARNING:pygls.protocol:Cancel notification for unknown message id "12"
+WARNING:pygls.protocol:Cancel notification for unknown message id "13"

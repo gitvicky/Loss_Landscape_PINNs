@@ -1,0 +1,19 @@
+2023-03-23 15:49:48.684 [info] Extension host with pid 90 started
+2023-03-23 15:49:48.693 [info] Lock '/root/capsule/code/.vscode/User/workspaceStorage/-b8cdb6d/vscode.lock': Lock acquired.
+2023-03-23 15:49:49.111 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-03-23 15:49:49.417 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-03-23 15:49:49.417 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-03-23 15:49:49.630 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-03-23 15:49:49.631 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-03-23 15:49:49.631 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-03-23 15:49:49.631 [info] Eager extensions activated
+2023-03-23 15:51:35.339 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2023-03-23 15:51:35.340 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2023-03-23 15:51:36.254 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2023-03-23 15:51:36.590 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: false, activationEvent: 'onLanguage:python'
+2023-03-23 15:51:46.015 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2023-03-23 15:51:46.015 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2023-03-23 16:05:45.099 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2023-03-23 16:14:21.190 [info] Extension host terminating: received terminate message from renderer
+2023-03-23 16:14:21.191 [info] Lock '/root/capsule/code/.vscode/User/workspaceStorage/-b8cdb6d/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-03-23 16:14:21.239 [info] Extension host with pid 90 exiting with code 0

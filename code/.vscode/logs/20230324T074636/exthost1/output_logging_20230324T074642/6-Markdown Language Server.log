@@ -1,0 +1,3 @@
+[Trace 07:49:07.650] VsCodeClientWorkspace: TextDocument.onDidOpen: vscode-notebook-cell:Interactive-1.interactive#W0sdnNjb2RlLWludGVyYWN0aXZl
+[Trace 07:49:07.650] VsCodeClientWorkspace: TextDocument.onDidChanceContent: vscode-notebook-cell:Interactive-1.interactive#W0sdnNjb2RlLWludGVyYWN0aXZl
+[Trace 07:49:07.675] VsCodeClientWorkspace: TextDocument.onDidChanceContent: vscode-notebook-cell:Interactive-1.interactive#W0sdnNjb2RlLWludGVyYWN0aXZl

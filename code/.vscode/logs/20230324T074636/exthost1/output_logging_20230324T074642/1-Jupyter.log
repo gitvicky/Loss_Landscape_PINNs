@@ -1,0 +1,110 @@
+code-server (1.73.1, live.codeocean.com, server-distro)
+Jupyter Extension Version: 2022.10.110.
+Python Extension Version: 2022.18.2.
+Workspace folder /root/capsule
+info 07:48:59.279: ZMQ install verified.
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+User belongs to experiment group 'jupyterTest'
+info 07:48:59.686: LSP Notebooks experiment is disabled -- Pylance disabled or not installed
+error 07:49:00.351: Execing shell command, Class name = b, completed in 289ms, has a falsy return value, Arg 1: "conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/pythonFiles/printEnvVariables.py", Arg 2: "" [Error: Command failed: conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/pythonFiles/printEnvVariables.py
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+	at ChildProcess.exithandler (node:child_process:402:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1100:16)
+	at Socket.<anonymous> (node:internal/child_process:458:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:301:12)] {
+  code: 1,
+  killed: false,
+  signal: null,
+  cmd: "conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/pythonFiles/printEnvVariables.py"
+}
+info 07:49:01.547: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1488ms
+info 07:49:01.557: Process Execution: > /opt/conda/bin/python -m pip list
+> /opt/conda/bin/python -m pip list
+info 07:49:04.048: Starting interactive window for resource '/root/capsule/code/Original/Burgers/map.py' with controller '.jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher (Interactive)'
+info 07:49:04.260: Preferred Remote kernel for Interactive-1.interactive is undefined
+info 07:49:05.016: Starting Jupyter Session startUsingPythonInterpreter, .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher (Python Path: /opt/conda/bin/python, EnvType: Conda, EnvName: 'base', Version: 3.9.12 (main, Apr  5 2022, 06:56:58) 
+[GCC 7.5.0]) for 'Interactive-1.interactive' (disableUI=false)
+info 07:49:05.017: Computing working directory for resource '/root/capsule/code/Original/Burgers/map.py'
+info 07:49:06.072: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1054ms
+info 07:49:06.082: Process Execution: > /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+> /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+info 07:49:06.084: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1050ms
+info 07:49:06.091: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1057ms
+info 07:49:06.100: Process Execution: > /opt/conda/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"37bb85cc-1f19-49af-b4f3-cda8ac3dd5bc" --shell=9002 --transport="tcp" --iopub=9004 --f=/root/.local/share/jupyter/runtime/kernel-v2-90LlQPcFXb0rV9.json
+> /opt/conda/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"37bb85cc-1f19-49af-b4f3-cda8ac3dd5bc" --shell=9002 --transport="tcp" --iopub=9004 --f=/root/.local/share/jupyter/runtime/kernel-v2-90LlQPcFXb0rV9.json
+info 07:49:06.100: Process Execution: cwd: ~/capsule/code/Original/Burgers
+cwd: ~/capsule/code/Original/Burgers
+info 07:49:06.240: ipykernel version & path 6.19.2, /opt/conda/lib/python3.9/site-packages/ipykernel/__init__.py for /opt/conda/bin/python
+warn 07:49:06.586: StdErr from Kernel Process /opt/conda/lib/python3.9/site-packages/traitlets/traitlets.py:2544: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use 'hmac-sha256' instead of '"hmac-sha256"' if you require traitlets >=5.
+  warn(
+
+warn 07:49:06.586: StdErr from Kernel Process /opt/conda/lib/python3.9/site-packages/traitlets/traitlets.py:2495: FutureWarning: Supporting extra quotes around Bytes is deprecated in traitlets 5.0. Use '37bb85cc-1f19-49af-b4f3-cda8ac3dd5bc' instead of 'b"37bb85cc-1f19-49af-b4f3-cda8ac3dd5bc"'.
+  warn(
+
+info 07:49:06.592: Kernel Output: To connect another client to this kernel, use: --existing kernel-v2-90LlQPcFXb0rV9.json
+
+info 07:49:06.739: Started Kernel base (Python 3.9.12) (pid: 692)
+info 07:49:06.742: UpdateWorkingDirectoryAndPath in Kernel
+info 07:49:07.087: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 0ms
+info 07:49:07.097: Process Execution: > /opt/conda/bin/python /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/pythonFiles/printJupyterDataDir.py
+> /opt/conda/bin/python /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/pythonFiles/printJupyterDataDir.py
+info 07:49:07.105: Generated code for 1 = <ipython-input-1-532e472035c8> with 15 lines
+info 07:49:08.591: Generated code for 2 = <ipython-input-2-4f032adaf0c3> with 35 lines
+info 07:54:32.759: Shutting down notebooks for 21d5446b-de0f-4d36-98d3-bae039046cfd
+info 07:54:32.759: Disposing HostJupyterExecution bb741de2-d059-4f9e-805a-106f3835fde2
+info 07:54:32.759: Disposing super HostJupyterExecution bb741de2-d059-4f9e-805a-106f3835fde2
+info 07:54:32.759: Dispose Kernel 'Interactive-1.interactive' associated with '/root/capsule/code/Original/Burgers/map.py'
+info 07:54:32.762: Dispose Kernel process 692.
+info 07:54:32.816: Disposing HostJupyterExecution bb741de2-d059-4f9e-805a-106f3835fde2
+info 07:54:32.816: Finished disposing HostJupyterExecution  bb741de2-d059-4f9e-805a-106f3835fde2
+info 07:54:32.821: Dispose Kernel 'Interactive-1.interactive' associated with '/root/capsule/code/Original/Burgers/map.py'
+info 07:54:32.823: Cleaning up server cache bb741de2-d059-4f9e-805a-106f3835fde2
+info 07:54:32.825: Cancel all remaining cells true || Idle || undefined
+info 07:54:32.825: Finished disposing HostJupyterExecution  bb741de2-d059-4f9e-805a-106f3835fde2
+error 07:54:32.826: Error in waiting for cell to complete [Error: Canceled future for execute_request message before replies were done
+	at t.KernelShellFutureHandler.dispose (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:427328)
+	at /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:446380
+	at Map.forEach (<anonymous>)
+	at y._clearKernelState (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:446365)
+	at y.dispose (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:439847)
+	at /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:593313
+	at t.swallowExceptions (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:7:167240)
+	at p.dispose (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:593291)
+	at t.RawSession.dispose (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:598289)]
+warn 07:54:32.827: Cell completed with errors {
+  message: 'Canceled future for execute_request message before replies were done'
+}
+info 07:54:32.835: Starting Jupyter Session startUsingPythonInterpreter, .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher (Python Path: /opt/conda/bin/python, EnvType: Conda, EnvName: 'base', Version: 3.9.12 (main, Apr  5 2022, 06:56:58) 
+[GCC 7.5.0]) for 'Interactive-1.interactive' (disableUI=false)
+info 07:54:32.835: Computing working directory for resource '/root/capsule/code/Original/Burgers/map.py'
+info 07:54:32.848: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1ms
+info 07:54:32.856: Process Execution: > /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+> /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+warn 07:54:32.860: Failed to delete connection file /root/.local/share/jupyter/runtime/kernel-v2-90LlQPcFXb0rV9.json for pid 692 [Canceled (FileSystemError): Canceled
+	at Function._handleError (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:30407)
+	at Object.stat (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:28335)
+	at async b.delete (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:7:16665)
+	at async /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:574498] {
+  code: 'Unknown'
+}

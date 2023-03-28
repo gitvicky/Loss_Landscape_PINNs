@@ -1,0 +1,55 @@
+2023-03-24 07:46:36.381 [info] 
+
+
+
+
+2023-03-24 07:46:36.402 [info] Extension host agent started.
+2023-03-24 07:46:39.790 [info] [10.0.0.195][30194aa4][ManagementConnection] New connection established.
+2023-03-24 07:46:41.759 [info] [10.0.3.226][06d6ee64][ExtensionHostConnection] New connection established.
+2023-03-24 07:46:41.765 [info] [10.0.3.226][06d6ee64][ExtensionHostConnection] <90> Launched Extension Host Process.
+2023-03-24 07:48:48.153 [info] Getting Manifest... ms-python.python
+2023-03-24 07:48:48.643 [info] Installing extension: ms-python.python
+2023-03-24 07:48:48.955 [info] Getting Manifest... ms-toolsai.jupyter
+2023-03-24 07:48:49.730 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2023-03-24 07:48:50.072 [info] Getting Manifest... ms-toolsai.jupyter-keymap
+2023-03-24 07:48:50.424 [info] Getting Manifest... ms-toolsai.vscode-jupyter-cell-tags
+2023-03-24 07:48:50.765 [info] Getting Manifest... ms-toolsai.vscode-jupyter-slideshow
+2023-03-24 07:48:51.110 [info] Getting Manifest... ms-python.isort
+2023-03-24 07:48:51.561 [info] Installing extension: ms-toolsai.jupyter ms-python.python
+2023-03-24 07:48:51.561 [info] Installing extension: ms-toolsai.jupyter-renderers ms-python.python
+2023-03-24 07:48:51.561 [info] Installing extension: ms-toolsai.jupyter-keymap ms-python.python
+2023-03-24 07:48:51.561 [info] Installing extension: ms-toolsai.vscode-jupyter-cell-tags ms-python.python
+2023-03-24 07:48:51.562 [info] Installing extension: ms-toolsai.vscode-jupyter-slideshow ms-python.python
+2023-03-24 07:48:51.562 [info] Installing extension: ms-python.isort ms-python.python
+2023-03-24 07:48:52.458 [info] Extracted extension to /.vscode/extensions/.9cff1155-a68d-45f4-ab8b-c81fbaa55919: ms-toolsai.jupyter-keymap
+2023-03-24 07:48:52.462 [info] Renamed to /.vscode/extensions/ms-toolsai.jupyter-keymap-1.1.0-universal
+2023-03-24 07:48:52.463 [info] Extracting completed. ms-toolsai.jupyter-keymap
+2023-03-24 07:48:52.527 [info] Extracted extension to /.vscode/extensions/.8eebcc80-95e7-4602-9ce1-bb35b68c0259: ms-toolsai.vscode-jupyter-slideshow
+2023-03-24 07:48:52.530 [info] Renamed to /.vscode/extensions/ms-toolsai.vscode-jupyter-slideshow-0.1.5-universal
+2023-03-24 07:48:52.531 [info] Extracting completed. ms-toolsai.vscode-jupyter-slideshow
+2023-03-24 07:48:52.606 [info] Extracted extension to /.vscode/extensions/.5ad39349-2e6e-4cbc-8e1e-c0bbba77bede: ms-toolsai.vscode-jupyter-cell-tags
+2023-03-24 07:48:52.609 [info] Renamed to /.vscode/extensions/ms-toolsai.vscode-jupyter-cell-tags-0.1.8-universal
+2023-03-24 07:48:52.610 [info] Extracting completed. ms-toolsai.vscode-jupyter-cell-tags
+2023-03-24 07:48:53.370 [info] Extracted extension to /.vscode/extensions/.3a953878-d668-4afe-9409-d955e1968b8d: ms-toolsai.jupyter-renderers
+2023-03-24 07:48:53.374 [info] Renamed to /.vscode/extensions/ms-toolsai.jupyter-renderers-1.0.12-universal
+2023-03-24 07:48:53.375 [info] Extracting completed. ms-toolsai.jupyter-renderers
+2023-03-24 07:48:54.250 [info] Extracted extension to /.vscode/extensions/.691d8252-56d7-4f65-b41e-033d876640b9: ms-toolsai.jupyter
+2023-03-24 07:48:54.257 [info] Renamed to /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal
+2023-03-24 07:48:54.267 [info] Extracting completed. ms-toolsai.jupyter
+2023-03-24 07:48:55.130 [info] Extracted extension to /.vscode/extensions/.b470e08d-7dd2-4346-92d3-7241b91a3503: ms-python.python
+2023-03-24 07:48:55.137 [info] Renamed to /.vscode/extensions/ms-python.python-2022.18.2-universal
+2023-03-24 07:48:55.139 [info] Extracting completed. ms-python.python
+2023-03-24 07:48:56.062 [info] Extracted extension to /.vscode/extensions/.726019cf-47fa-48f7-a540-6ffe7facf1a9: ms-python.isort
+2023-03-24 07:48:56.066 [info] Renamed to /.vscode/extensions/ms-python.isort-2022.8.0-universal
+2023-03-24 07:48:56.067 [info] Extracting completed. ms-python.isort
+2023-03-24 07:48:56.067 [info] Extension installed successfully: ms-toolsai.jupyter-keymap
+2023-03-24 07:48:56.067 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-slideshow
+2023-03-24 07:48:56.067 [info] Extension installed successfully: ms-toolsai.vscode-jupyter-cell-tags
+2023-03-24 07:48:56.067 [info] Extension installed successfully: ms-toolsai.jupyter-renderers
+2023-03-24 07:48:56.067 [info] Extension installed successfully: ms-toolsai.jupyter
+2023-03-24 07:48:56.067 [info] Extension installed successfully: ms-python.python
+2023-03-24 07:48:56.067 [info] Extension installed successfully: ms-python.isort
+2023-03-24 07:49:06.729 [info] [10.0.3.226][06d6ee64][ExtensionHostConnection] <90> Starting WebSocket: RAW/api/kernels/e7f4dec2-c050-4e3f-adb5-bcaba1852169
+
+2023-03-24 07:54:32.692 [info] [10.0.0.195][30194aa4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-03-24 07:54:32.875 [info] [10.0.3.226][06d6ee64][ExtensionHostConnection] <90> Extension Host Process exited with code: 0, signal: null.

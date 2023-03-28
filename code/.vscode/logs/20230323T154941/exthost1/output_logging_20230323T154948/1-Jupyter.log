@@ -1,0 +1,223 @@
+code-server (1.73.1, live.codeocean.com, server-distro)
+Jupyter Extension Version: 2022.10.110.
+Python Extension Version: 2022.18.2.
+Workspace folder /root/capsule
+info 15:51:35.933: ZMQ install verified.
+User belongs to experiment group 'jupyterEnhancedDataViewer'
+User belongs to experiment group 'jupyterTest'
+info 15:51:36.284: LSP Notebooks experiment is disabled -- Pylance disabled or not installed
+error 15:51:36.911: Execing shell command, Class name = b, completed in 271ms, has a falsy return value, Arg 1: "conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/pythonFiles/printEnvVariables.py", Arg 2: "" [Error: Command failed: conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/pythonFiles/printEnvVariables.py
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+	at ChildProcess.exithandler (node:child_process:402:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1100:16)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)] {
+  code: 1,
+  killed: false,
+  signal: null,
+  cmd: "conda activate base && echo 'e8b39361-0157-4923-80e1-22d70d46dee6' && python /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/pythonFiles/printEnvVariables.py"
+}
+info 15:51:38.092: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1455ms
+info 15:51:38.103: Process Execution: > /opt/conda/bin/python -m pip list
+> /opt/conda/bin/python -m pip list
+info 15:51:41.128: Starting interactive window for resource '/root/capsule/code/Reprod/Burgers/Burgers.py' with controller '.jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher (Interactive)'
+info 15:51:41.331: Preferred Remote kernel for Interactive-1.interactive is undefined
+info 15:51:41.786: Starting Jupyter Session startUsingPythonInterpreter, .jvsc74a57bd0d4d1e4263499bec80672ea0156c357c1ee493ec2b1c70f0acce89fc37c4a6abe./opt/conda/python./opt/conda/python.-m#ipykernel_launcher (Python Path: /opt/conda/bin/python, EnvType: Conda, EnvName: 'base', Version: 3.9.12 (main, Apr  5 2022, 06:56:58) 
+[GCC 7.5.0]) for 'Interactive-1.interactive' (disableUI=false)
+info 15:51:41.787: Computing working directory for resource '/root/capsule/code/Reprod/Burgers/Burgers.py'
+info 15:51:42.840: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1049ms
+info 15:51:42.848: Process Execution: > /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+> /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+info 15:51:42.850: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1041ms
+info 15:51:42.864: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1054ms
+info 15:51:42.873: Process Execution: > /opt/conda/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"d291958c-d947-45e7-8aa9-bc9f14b52572" --shell=9002 --transport="tcp" --iopub=9004 --f=/root/.local/share/jupyter/runtime/kernel-v2-90VP6hbDvEYHsg.json
+> /opt/conda/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"d291958c-d947-45e7-8aa9-bc9f14b52572" --shell=9002 --transport="tcp" --iopub=9004 --f=/root/.local/share/jupyter/runtime/kernel-v2-90VP6hbDvEYHsg.json
+info 15:51:42.873: Process Execution: cwd: ~/capsule/code/Reprod/Burgers
+cwd: ~/capsule/code/Reprod/Burgers
+info 15:51:43.006: ipykernel version & path 6.19.2, /opt/conda/lib/python3.9/site-packages/ipykernel/__init__.py for /opt/conda/bin/python
+warn 15:51:43.369: StdErr from Kernel Process /opt/conda/lib/python3.9/site-packages/traitlets/traitlets.py:2544: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use 'hmac-sha256' instead of '"hmac-sha256"' if you require traitlets >=5.
+  warn(
+
+warn 15:51:43.369: StdErr from Kernel Process /opt/conda/lib/python3.9/site-packages/traitlets/traitlets.py:2495: FutureWarning: Supporting extra quotes around Bytes is deprecated in traitlets 5.0. Use 'd291958c-d947-45e7-8aa9-bc9f14b52572' instead of 'b"d291958c-d947-45e7-8aa9-bc9f14b52572"'.
+  warn(
+
+info 15:51:43.376: Kernel Output: To connect another client to this kernel, use: --existing kernel-v2-90VP6hbDvEYHsg.json
+
+info 15:51:43.511: Started Kernel base (Python 3.9.12) (pid: 641)
+info 15:51:43.514: UpdateWorkingDirectoryAndPath in Kernel
+info 15:51:43.865: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1ms
+info 15:51:43.874: Process Execution: > /opt/conda/bin/python /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/pythonFiles/printJupyterDataDir.py
+> /opt/conda/bin/python /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/pythonFiles/printJupyterDataDir.py
+info 15:51:43.884: Generated code for 1 = <ipython-input-1-fee4998e9dad> with 43 lines
+info 15:52:17.128: Generated code for 2 = <ipython-input-2-c51676151331> with 37 lines
+info 15:52:17.787: Generated code for 3 = <ipython-input-3-9bff67330fc6> with 9 lines
+info 15:52:17.993: Generated code for 4 = <ipython-input-4-34ee5927f095> with 40 lines
+info 15:52:18.357: Generated code for 5 = <ipython-input-5-b650e1f3fe47> with 187 lines
+info 15:52:18.644: Generated code for 6 = <ipython-input-6-7cb37f0f61eb> with 4 lines
+info 15:52:20.431: Generated code for 7 = <ipython-input-7-dcb766ea71ac> with 9 lines
+info 15:52:20.648: Generated code for 8 = <ipython-input-8-ca1f1eea6fc5> with 13 lines
+info 15:52:21.057: Generated code for 9 = <ipython-input-9-6a59f05f4bb6> with 82 lines
+info 15:52:54.069: Restart requested vscode-interactive:Interactive-1.interactive
+info 15:52:54.070: Restart kernel execution
+info 15:52:54.072: Cancel all remaining cells true || Idle || undefined
+info 15:52:54.072: Restarting c142da75-f4ee-4c63-a9d9-a7fbf2fd63f0
+info 15:52:54.077: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 4ms
+info 15:52:54.089: Process Execution: > /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+> /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+info 15:52:54.095: Generated code for 10 = <ipython-input-10-91282926591a> with 14 lines
+info 15:52:54.101: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 2ms
+info 15:52:54.101: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1ms
+info 15:52:54.112: Process Execution: > /opt/conda/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9008 --control=9006 --hb=9005 --Session.signature_scheme="hmac-sha256" --Session.key=b"7a7e0f82-d849-4428-9d24-e8eb0bafaf56" --shell=9007 --transport="tcp" --iopub=9009 --f=/root/.local/share/jupyter/runtime/kernel-v2-908t31f6P40c8f.json
+> /opt/conda/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9008 --control=9006 --hb=9005 --Session.signature_scheme="hmac-sha256" --Session.key=b"7a7e0f82-d849-4428-9d24-e8eb0bafaf56" --shell=9007 --transport="tcp" --iopub=9009 --f=/root/.local/share/jupyter/runtime/kernel-v2-908t31f6P40c8f.json
+info 15:52:54.112: Process Execution: cwd: ~/capsule/code/Reprod/Burgers
+cwd: ~/capsule/code/Reprod/Burgers
+info 15:52:54.288: ipykernel version & path 6.19.2, /opt/conda/lib/python3.9/site-packages/ipykernel/__init__.py for /opt/conda/bin/python
+error 15:52:54.314: Failed to handle iopub message as a result of some comm message {
+  header: {
+    msg_id: 'e18455fa-f8d9c2659f5114dff6522389_641_108',
+    msg_type: 'stream',
+    username: 'username',
+    session: 'e18455fa-f8d9c2659f5114dff6522389',
+    date: '2023-03-23T15:52:54.312565Z',
+    version: '5.3'
+  },
+  parent_header: {
+    date: '2023-03-23T15:52:21.248000Z',
+    msg_id: 'c77a7ca3-5a61-45d5-9cb2-ea38542e55c7',
+    msg_type: 'execute_request',
+    session: 'b49205da-5864-4e5d-99ee-24e54134a1a3',
+    username: '5767830c-9bbc-49f7-bd98-8d80a63c70c7',
+    version: '5.2'
+  },
+  metadata: {},
+  content: { name: 'stderr', text: '\r50it [00:33,  1.52it/s]' },
+  idents: [ <Buffer 73 74 72 65 61 6d 2e 73 74 64 65 72 72> ],
+  buffers: [],
+  channel: 'iopub'
+} [Error: Cannot modify cell output after calling resolve
+	at b.verifyStateForOutput (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:110205)
+	at Object.appendOutputItems (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:112126)
+	at n.appendOutputItems (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:199271)
+	at b.handleStreamMessage (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:213408)
+	at b.handleIOPub (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:204908)
+	at b.onKernelIOPubMessage (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:203078)
+	at l (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:573923)
+	at Object.e.emit (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:573634)
+	at e.emit (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:572032)
+	at i.onIOPubMessage (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:289606)
+	at l (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:573923)
+	at Object.e.emit (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:573634)
+	at e.emit (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:572032)
+	at p.onIOPubMessage (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:594284)
+	at l (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:573923)
+	at Object.e.emit (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:573634)
+	at e.emit (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:572032)
+	at y._handleMessage (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:449153)]
+info 15:52:54.736: Kernel Output: To connect another client to this kernel, use: --existing kernel-v2-908t31f6P40c8f.json
+
+info 15:52:54.943: Got new session f48132a7-c07b-4640-b65b-60a341ba3543
+info 15:52:54.943: Started new restart session
+info 15:52:54.943: Dispose Kernel process 641.
+error 15:52:54.958: Error in waiting for cell to complete [Error: Canceled future for execute_request message before replies were done
+	at t.KernelShellFutureHandler.dispose (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:427328)
+	at /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:446380
+	at Map.forEach (<anonymous>)
+	at y._clearKernelState (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:446365)
+	at y.dispose (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:17:439847)
+	at /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:593313
+	at t.swallowExceptions (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:7:167240)
+	at p.dispose (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:593291)
+	at t.RawSession.dispose (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:598289)]
+warn 15:52:54.959: Cell completed with errors {
+  message: 'Canceled future for execute_request message before replies were done'
+}
+info 15:52:55.110: UpdateWorkingDirectoryAndPath in Kernel
+info 15:52:55.653: Cancel all remaining cells true || Error || undefined
+info 15:53:00.069: Generated code for 1 = <ipython-input-1-fee4998e9dad> with 43 lines
+info 15:53:33.256: Generated code for 2 = <ipython-input-2-c51676151331> with 37 lines
+info 15:53:33.997: Generated code for 3 = <ipython-input-3-9bff67330fc6> with 9 lines
+info 15:53:34.211: Generated code for 4 = <ipython-input-4-34ee5927f095> with 40 lines
+info 15:53:34.596: Generated code for 5 = <ipython-input-5-b650e1f3fe47> with 187 lines
+info 15:53:34.899: Generated code for 6 = <ipython-input-6-7cb37f0f61eb> with 4 lines
+info 15:53:36.763: Generated code for 7 = <ipython-input-7-dcb766ea71ac> with 9 lines
+info 15:53:36.974: Generated code for 8 = <ipython-input-8-ca1f1eea6fc5> with 13 lines
+info 15:53:37.211: Generated code for 9 = <ipython-input-9-c56bebffc47b> with 85 lines
+info 15:56:15.851: Generated code for 10 = <ipython-input-10-91282926591a> with 14 lines
+info 15:56:16.573: Cancel all remaining cells true || Error || undefined
+info 16:02:41.697: Generated code for 11 = <ipython-input-11-91282926591a> with 14 lines
+info 16:03:04.133: Cancel all remaining cells true || Error || undefined
+info 16:03:08.236: Cancel all remaining cells true || Error || undefined
+info 16:05:39.329: Generated code for 15 = <ipython-input-15-ecae8422e0b6> with 15 lines
+info 16:07:25.316: Generated code for 17 = <ipython-input-17-36bbf95a5bc6> with 15 lines
+info 16:07:47.209: Generated code for 18 = <ipython-input-18-87931549f667> with 15 lines
+info 16:08:31.364: Restart requested vscode-interactive:Interactive-1.interactive
+info 16:08:31.364: Restart kernel execution
+info 16:08:31.364: Restarting f48132a7-c07b-4640-b65b-60a341ba3543
+info 16:08:32.388: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1023ms
+info 16:08:32.397: Process Execution: > /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+> /opt/conda/bin/python -c "import ipykernel; print(ipykernel.__version__); print("5dc3a68c-e34e-4080-9c3e-2a532b2ccb4d"); print(ipykernel.__file__)"
+info 16:08:32.399: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1019ms
+info 16:08:32.404: Got env vars with python /opt/conda/bin/python, with env var count 41 and custom env var count 0 in 1024ms
+info 16:08:32.411: Process Execution: > /opt/conda/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"d402e4dd-7942-4eba-9173-b87939af1e75" --shell=9002 --transport="tcp" --iopub=9004 --f=/root/.local/share/jupyter/runtime/kernel-v2-90V1TkG3kthDdQ.json
+> /opt/conda/bin/python -m ipykernel_launcher --ip=127.0.0.1 --stdin=9003 --control=9001 --hb=9000 --Session.signature_scheme="hmac-sha256" --Session.key=b"d402e4dd-7942-4eba-9173-b87939af1e75" --shell=9002 --transport="tcp" --iopub=9004 --f=/root/.local/share/jupyter/runtime/kernel-v2-90V1TkG3kthDdQ.json
+info 16:08:32.411: Process Execution: cwd: ~/capsule/code/Reprod/Burgers
+cwd: ~/capsule/code/Reprod/Burgers
+info 16:08:32.551: ipykernel version & path 6.19.2, /opt/conda/lib/python3.9/site-packages/ipykernel/__init__.py for /opt/conda/bin/python
+warn 16:08:32.880: StdErr from Kernel Process /opt/conda/lib/python3.9/site-packages/traitlets/traitlets.py:2544: FutureWarning: Supporting extra quotes around strings is deprecated in traitlets 5.0. You can use 'hmac-sha256' instead of '"hmac-sha256"' if you require traitlets >=5.
+  warn(
+
+warn 16:08:32.880: StdErr from Kernel Process /opt/conda/lib/python3.9/site-packages/traitlets/traitlets.py:2495: FutureWarning: Supporting extra quotes around Bytes is deprecated in traitlets 5.0. Use 'd402e4dd-7942-4eba-9173-b87939af1e75' instead of 'b"d402e4dd-7942-4eba-9173-b87939af1e75"'.
+  warn(
+
+info 16:08:32.886: Kernel Output: To connect another client to this kernel, use: --existing kernel-v2-90V1TkG3kthDdQ.json
+
+info 16:08:33.029: Got new session 1289b0cb-eaf9-4ad8-87a7-1e779d63a35a
+info 16:08:33.029: Started new restart session
+info 16:08:33.029: Dispose Kernel process 986.
+info 16:08:33.169: UpdateWorkingDirectoryAndPath in Kernel
+info 16:08:59.002: Generated code for 1 = <ipython-input-1-fee4998e9dad> with 43 lines
+info 16:11:13.853: Generated code for 2 = <ipython-input-2-c51676151331> with 37 lines
+info 16:11:14.495: Generated code for 3 = <ipython-input-3-9bff67330fc6> with 9 lines
+info 16:11:14.697: Generated code for 4 = <ipython-input-4-34ee5927f095> with 40 lines
+info 16:11:14.937: Generated code for 5 = <ipython-input-5-b650e1f3fe47> with 187 lines
+info 16:11:15.291: Generated code for 6 = <ipython-input-6-7cb37f0f61eb> with 4 lines
+info 16:11:17.295: Generated code for 7 = <ipython-input-7-dcb766ea71ac> with 9 lines
+info 16:11:17.701: Generated code for 8 = <ipython-input-8-ca1f1eea6fc5> with 13 lines
+info 16:11:17.898: Generated code for 9 = <ipython-input-9-c56bebffc47b> with 85 lines
+info 16:13:54.152: Generated code for 10 = <ipython-input-10-87931549f667> with 15 lines
+info 16:14:21.205: Shutting down notebooks for 94b58dbc-1851-4440-b3f9-53e2dac49c84
+info 16:14:21.206: Disposing HostJupyterExecution 4fafa783-c91e-4467-9d09-94b263dcccb5
+info 16:14:21.206: Disposing super HostJupyterExecution 4fafa783-c91e-4467-9d09-94b263dcccb5
+info 16:14:21.206: Dispose Kernel 'Interactive-1.interactive' associated with '/root/capsule/code/Reprod/Burgers/Burgers.py'
+info 16:14:21.207: Dispose Kernel process 4791.
+info 16:14:21.219: Disposing HostJupyterExecution 4fafa783-c91e-4467-9d09-94b263dcccb5
+info 16:14:21.219: Finished disposing HostJupyterExecution  4fafa783-c91e-4467-9d09-94b263dcccb5
+info 16:14:21.222: Dispose Kernel 'Interactive-1.interactive' associated with '/root/capsule/code/Reprod/Burgers/Burgers.py'
+info 16:14:21.224: Cleaning up server cache 4fafa783-c91e-4467-9d09-94b263dcccb5
+info 16:14:21.225: Finished disposing HostJupyterExecution  4fafa783-c91e-4467-9d09-94b263dcccb5
+warn 16:14:21.236: Failed to delete connection file /root/.local/share/jupyter/runtime/kernel-v2-90V1TkG3kthDdQ.json for pid 4791 [Canceled (FileSystemError): Canceled
+	at Function._handleError (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:30407)
+	at Object.stat (/.code-server/code-server-4.9.0-linux-amd64/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:94:28335)
+	at async b.delete (/.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:7:16665)
+	at async /.vscode/extensions/ms-toolsai.jupyter-2022.10.110-universal/out/extension.node.js:2:574498] {
+  code: 'Unknown'
+}
